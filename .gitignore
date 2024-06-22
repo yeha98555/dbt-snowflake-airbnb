@@ -1,6 +1,6 @@
-dbtlearn/package-lock.yml
-dbtlearn/target/
-dbtlearn/dbt_packages/
+package-lock.yml
+target/
+dbt_packages/
 
 archive
 
