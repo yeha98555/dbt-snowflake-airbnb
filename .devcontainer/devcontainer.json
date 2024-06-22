@@ -7,13 +7,16 @@
 			"version": "3.11"
 		}
 	},
-	"forwardPorts": [5000],
+	"forwardPorts": [8080],
 	"postCreateCommand": "bash scripts/setup_codespace_env.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"innoverio.vscode-dbt-power-user",
-				"mechatroner.rainbow-csv"
+				"mechatroner.rainbow-csv",
+				"donjayamanne.githistory",
+				"shardulm94.trailing-spaces",
+				"Gruntfuggly.todo-tree"
 			]
 		}
 	}
