@@ -1,5 +1,5 @@
 {
-	"name": "Python 3.10",
+	"name": "dbt-snowflake (Python 3.10)",
 	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
@@ -7,7 +7,9 @@
 			"version": "3.11"
 		}
 	},
-	"forwardPorts": [8080],
+	"forwardPorts": [
+		8080
+	],
 	"postCreateCommand": "bash scripts/setup_codespace_env.sh",
 	"customizations": {
 		"vscode": {
@@ -21,4 +23,3 @@
 		}
 	}
 }
-
